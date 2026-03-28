@@ -1,39 +1,41 @@
+import Image from 'next/image';
+
 const team = [
   {
     name: 'Clawdius',
     role: 'Orchestrator',
-    icon: '🧭',
-    bio: 'Keeps the whole system aligned, prioritised, and moving in the right direction.',
+    image: '/team/clawdius.webp',
+    bio: 'Koordiniert das Gesamtsystem, setzt Prioritäten und sorgt dafür, dass alles in die richtige Richtung läuft.',
   },
   {
     name: 'Alfred',
     role: 'Admin',
-    icon: '📋',
-    bio: 'Handles inboxes, tasks, and operational accountability so nothing falls through the cracks.',
+    image: '/team/alfred.webp',
+    bio: 'Verwaltet Postfächer, Aufgaben und operative Verantwortlichkeiten — nichts geht verloren.',
   },
   {
     name: 'Byte',
     role: 'Developer',
-    icon: '💻',
-    bio: 'Builds features, fixes bugs, ships APIs, and keeps product quality high while moving fast.',
+    image: '/team/byte.webp',
+    bio: 'Baut Features, fixt Bugs, liefert APIs und hält die Produktqualität hoch — bei maximalem Tempo.',
   },
   {
     name: 'Echo',
     role: 'Marketing',
-    icon: '📣',
-    bio: 'Owns positioning, content, and growth loops to make products visible and compelling.',
+    image: '/team/echo.webp',
+    bio: 'Verantwortet Positionierung, Content und Growth Loops — damit Produkte sichtbar und überzeugend werden.',
   },
   {
     name: 'Sage',
     role: 'Research',
-    icon: '🔬',
-    bio: 'Turns messy questions into clear research, deep analysis, and actionable insight.',
+    image: '/team/sage.webp',
+    bio: 'Verwandelt komplexe Fragen in klare Analysen, tiefe Recherchen und umsetzbare Erkenntnisse.',
   },
   {
     name: 'Hunter',
     role: 'Growth',
-    icon: '🎯',
-    bio: 'Looks for opportunities, partnerships, and channels that help VibeLabs reach the right people.',
+    image: '/team/hunter.webp',
+    bio: 'Identifiziert Chancen, Partnerschaften und Kanäle, um die richtigen Menschen zu erreichen.',
   },
 ];
 
@@ -42,26 +44,26 @@ const values = [
     title: 'Innovation',
     icon: '⚡',
     description:
-      'We push for better products, sharper systems, and new ways of building digital experiences.',
+      'Wir treiben bessere Produkte, schärfere Systeme und neue Wege voran, AI in Unternehmen zu verankern.',
   },
   {
-    title: 'Autonomy',
+    title: 'Autonomie',
     icon: '🎯',
     description:
-      'Self-driven execution is core to how we work — fast ownership, clear responsibility, real output.',
+      'Eigenverantwortliche Umsetzung ist unser Kern — schnelles Ownership, klare Verantwortung, echte Ergebnisse.',
   },
   {
-    title: 'Quality',
+    title: 'Qualität',
     icon: '💎',
     description:
-      'We ship quickly, but not carelessly. Strong craft, attention to detail, and clean execution matter.',
+      'Wir liefern schnell, aber nicht nachlässig. Starkes Handwerk, Liebe zum Detail und saubere Umsetzung zählen.',
   },
 ];
 
 const stats = [
-  { label: 'Apps in the ecosystem', value: '6+' },
-  { label: 'Execution modes', value: 'Design · Dev · Research · Growth' },
-  { label: 'Operating principle', value: 'Autonomous, documented, iterative' },
+  { label: 'AI-Projekte umgesetzt', value: '6+' },
+  { label: 'Kompetenzfelder', value: 'Strategie · Entwicklung · Research · Growth' },
+  { label: 'Arbeitsprinzip', value: 'Autonom, dokumentiert, iterativ' },
 ];
 
 export default function Home() {
@@ -71,20 +73,20 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <div className="mb-6 inline-flex rounded-full border border-[#E8E8EC] bg-white px-4 py-2 text-sm font-medium text-[#4A4A68] shadow-sm">
-              Digital products, built with taste and velocity
+              Innovation am Edge der Zeit
             </div>
             <h1 className="max-w-3xl text-5xl font-semibold leading-[1.02] tracking-[-0.04em] text-[#1A1A2E] md:text-6xl lg:text-7xl">
-              Building Digital Experiences
+              AI für Ihr Unternehmen
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-[#4A4A68] md:text-xl">
-              VibeLabs creates innovative apps and tools that empower users.
+              VibeLabs hilft Unternehmen, künstliche Intelligenz strategisch zu implementieren — von der Vision bis zur produktionsreifen Lösung.
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
               <a
-                href="#contact"
+                href="#kontakt"
                 className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#FF6B35] to-[#2EC4B6] px-7 py-4 text-base font-semibold text-white shadow-lg shadow-[#FF6B35]/20 transition hover:opacity-90"
               >
-                Get in Touch
+                Kontakt aufnehmen
               </a>
               <a
                 href="https://github.com/MaxMa04/vibelabs"
@@ -92,7 +94,7 @@ export default function Home() {
                 rel="noreferrer"
                 className="inline-flex items-center justify-center gap-2 text-base font-semibold text-[#2EC4B6] transition hover:text-[#1A1A2E]"
               >
-                See Our Work <span aria-hidden="true">→</span>
+                Unsere Arbeit ansehen <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
@@ -102,27 +104,31 @@ export default function Home() {
             <div className="absolute bottom-12 left-6 h-56 w-56 rounded-full bg-[#2EC4B6]/20 blur-3xl" />
             <div className="absolute inset-x-6 top-10 rounded-[2rem] border border-white/70 bg-white/80 p-8 shadow-2xl shadow-[#1A1A2E]/8 backdrop-blur">
               <div className="mb-6 flex items-center gap-3">
-                <span className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-br from-[#FF6B35] to-[#2EC4B6] text-sm font-semibold text-white">
-                  VL
-                </span>
+                <Image
+                  src="/logo.svg"
+                  alt="VibeLabs Logo"
+                  width={44}
+                  height={44}
+                  className="rounded-full"
+                />
                 <div>
                   <p className="text-sm font-semibold text-[#1A1A2E]">VibeLabs System</p>
-                  <p className="text-sm text-[#4A4A68]">Design, development, research, and growth — under one roof.</p>
+                  <p className="text-sm text-[#4A4A68]">Strategie, Entwicklung, Research und Growth — aus einer Hand.</p>
                 </div>
               </div>
               <div className="grid gap-4 sm:grid-cols-2">
                 <div className="rounded-2xl bg-[#F8F9FA] p-5">
-                  <p className="text-sm font-medium text-[#4A4A68]">Execution</p>
-                  <p className="mt-2 text-xl font-semibold text-[#1A1A2E]">Fast, structured, high-signal</p>
+                  <p className="text-sm font-medium text-[#4A4A68]">Umsetzung</p>
+                  <p className="mt-2 text-xl font-semibold text-[#1A1A2E]">Schnell, strukturiert, wirkungsvoll</p>
                 </div>
                 <div className="rounded-2xl bg-[#1A1A2E] p-5 text-white">
-                  <p className="text-sm font-medium text-white/70">Focus</p>
-                  <p className="mt-2 text-xl font-semibold">Apps, tools, systems</p>
+                  <p className="text-sm font-medium text-white/70">Fokus</p>
+                  <p className="mt-2 text-xl font-semibold">AI-Implementierung für Unternehmen</p>
                 </div>
                 <div className="rounded-2xl border border-[#E8E8EC] p-5 sm:col-span-2">
-                  <p className="text-sm font-medium text-[#4A4A68]">Approach</p>
+                  <p className="text-sm font-medium text-[#4A4A68]">Ansatz</p>
                   <p className="mt-2 text-lg leading-7 text-[#1A1A2E]">
-                    Build with clarity. Iterate with feedback. Keep the quality bar high.
+                    Mit Klarheit bauen. Mit Feedback iterieren. Den Qualitätsanspruch hochhalten.
                   </p>
                 </div>
               </div>
@@ -131,24 +137,24 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="bg-[#F8F9FA] px-4 py-20 sm:px-6 lg:px-8">
+      <section id="ueber-uns" className="bg-[#F8F9FA] px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#2EC4B6]">About VibeLabs</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#2EC4B6]">Über VibeLabs</p>
             <h2 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-[#1A1A2E] md:text-4xl">
-              A company built around strong systems and even stronger execution.
+              AI-Beratung und Implementierung — von der Strategie bis zum Go-Live.
             </h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-[#4A4A68] md:text-lg">
               <p>
-                VibeLabs is an indie product company focused on building modern apps and tools with a small,
-                highly-leveraged team.
+                VibeLabs ist ein AI-Consulting-Unternehmen, das Firmen dabei unterstützt, künstliche Intelligenz
+                effektiv in ihre Prozesse und Produkte zu integrieren.
               </p>
               <p>
-                The setup blends human direction with autonomous agents across strategy, operations,
-                development, research, and growth.
+                Unser Setup kombiniert menschliche Expertise mit autonomen Agents über Strategie, Operations,
+                Entwicklung, Research und Growth hinweg.
               </p>
               <p>
-                The goal is simple: ship high-quality digital products faster, learn quickly, and compound what works.
+                Das Ziel ist klar: AI-Lösungen schneller in Produktion bringen, schnell lernen und skalieren, was funktioniert.
               </p>
             </div>
           </div>
@@ -172,9 +178,9 @@ export default function Home() {
       <section id="team" className="bg-white px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto mb-14 max-w-3xl text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#2EC4B6]">Meet the Team</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#2EC4B6]">Das Team</p>
             <h2 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-[#1A1A2E] md:text-4xl">
-              The autonomous agents behind VibeLabs
+              Die autonomen Agents hinter VibeLabs
             </h2>
           </div>
 
@@ -184,8 +190,13 @@ export default function Home() {
                 key={member.name}
                 className="rounded-[1.25rem] border border-[#E8E8EC] bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:shadow-[#1A1A2E]/8"
               >
-                <div className="mb-5 inline-flex h-20 w-20 items-center justify-center rounded-full bg-[#F8F9FA] text-3xl">
-                  <span aria-hidden="true">{member.icon}</span>
+                <div className="relative mb-5 h-20 w-20 overflow-hidden rounded-full bg-[#F8F9FA]">
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <h3 className="text-2xl font-semibold tracking-[-0.02em] text-[#1A1A2E]">{member.name}</h3>
                 <p className="mt-2 text-sm font-medium uppercase tracking-[0.14em] text-[#FF6B35]">{member.role}</p>
@@ -196,12 +207,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="values" className="bg-[#1A1A2E] px-4 py-20 text-white sm:px-6 lg:px-8">
+      <section id="werte" className="bg-[#1A1A2E] px-4 py-20 text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto mb-14 max-w-3xl text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#2EC4B6]">What We Stand For</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#2EC4B6]">Wofür wir stehen</p>
             <h2 className="mt-4 text-3xl font-semibold tracking-[-0.03em] md:text-4xl">
-              Principles that shape every product we build
+              Prinzipien, die jedes Produkt prägen, das wir bauen
             </h2>
           </div>
 
@@ -217,11 +228,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="bg-gradient-to-r from-[#FF6B35] to-[#2EC4B6] px-4 py-24 sm:px-6 lg:px-8">
+      <section id="kontakt" className="bg-gradient-to-r from-[#FF6B35] to-[#2EC4B6] px-4 py-24 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center text-white">
-          <h2 className="text-3xl font-semibold tracking-[-0.03em] md:text-5xl">Ready to build something amazing?</h2>
+          <h2 className="text-3xl font-semibold tracking-[-0.03em] md:text-5xl">Bereit, AI in Ihrem Unternehmen zu verankern?</h2>
           <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-white/90 md:text-xl">
-            Get in touch with the VibeLabs team and see how design, code, and execution can move together.
+            Sprechen Sie mit dem VibeLabs-Team und erfahren Sie, wie Strategie, Entwicklung und Umsetzung Hand in Hand gehen.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
@@ -230,13 +241,13 @@ export default function Home() {
               rel="noreferrer"
               className="inline-flex items-center justify-center rounded-full bg-white px-7 py-4 text-base font-semibold text-[#1A1A2E] shadow-lg transition hover:bg-[#F8F9FA]"
             >
-              Get in Touch
+              Kontakt aufnehmen
             </a>
             <a
               href="#team"
               className="inline-flex items-center justify-center rounded-full border border-white/40 px-7 py-4 text-base font-semibold text-white transition hover:bg-white/10"
             >
-              Meet the Team
+              Das Team kennenlernen
             </a>
           </div>
         </div>

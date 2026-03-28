@@ -1,19 +1,21 @@
+import Image from 'next/image';
+
 const quickLinks = [
-  { href: '#about', label: 'About' },
+  { href: '#ueber-uns', label: 'Über uns' },
   { href: '#team', label: 'Team' },
-  { href: '#values', label: 'Values' },
+  { href: '#werte', label: 'Werte' },
 ];
 
 const legalLinks = [
-  { href: '#', label: 'Imprint' },
-  { href: '#', label: 'Privacy' },
-  { href: '#', label: 'Terms' },
+  { href: '#', label: 'Impressum' },
+  { href: '#', label: 'Datenschutz' },
+  { href: '#', label: 'AGB' },
 ];
 
 const socialLinks = [
   { href: 'https://github.com/MaxMa04/vibelabs', label: 'GitHub' },
-  { href: 'https://github.com/MaxMa04', label: 'Founder' },
-  { href: '#contact', label: 'Contact' },
+  { href: 'https://github.com/MaxMa04', label: 'Gründer' },
+  { href: '#kontakt', label: 'Kontakt' },
 ];
 
 export default function Footer() {
@@ -23,19 +25,23 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="mb-4 flex items-center gap-3">
-              <span className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-br from-[#FF6B35] to-[#2EC4B6] text-sm font-semibold text-white">
-                VL
-              </span>
+              <Image
+                src="/logo.svg"
+                alt="VibeLabs Logo"
+                width={44}
+                height={44}
+                className="rounded-full"
+              />
               <span className="text-lg font-semibold tracking-[-0.02em]">VibeLabs</span>
             </div>
             <p className="max-w-xs text-sm leading-6 text-white/70">
-              A modern indie app company building digital products with autonomous agents.
+              Ein AI-Consulting-Unternehmen, das Firmen hilft, künstliche Intelligenz strategisch zu implementieren.
             </p>
           </div>
 
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-[0.16em] text-white/60">
-              Quick Links
+              Schnellzugriff
             </h3>
             <ul className="space-y-3 text-sm text-white/75">
               {quickLinks.map((link) => (
@@ -50,7 +56,7 @@ export default function Footer() {
 
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-[0.16em] text-white/60">
-              Legal
+              Rechtliches
             </h3>
             <ul className="space-y-3 text-sm text-white/75">
               {legalLinks.map((link) => (
@@ -85,7 +91,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-white/10 pt-8 text-center text-sm text-white/55">
-          © 2026 VibeLabs. All rights reserved.
+          © 2026 VibeLabs. Alle Rechte vorbehalten.
         </div>
       </div>
     </footer>
