@@ -23,7 +23,7 @@ export default function Nav() {
             alt="VibeLabs Logo"
             width={40}
             height={40}
-            className="rounded-full"
+            className="rounded-lg"
           />
           <span className="text-lg font-semibold tracking-[-0.02em]">VibeLabs</span>
         </Link>

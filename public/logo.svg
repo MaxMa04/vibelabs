@@ -1,12 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
-  <!-- Placeholder: Palm tree logo (replace with real asset) -->
-  <circle cx="60" cy="60" r="56" fill="#F8F9FA" stroke="#E8E8EC" stroke-width="2"/>
-  <!-- Trunk -->
-  <path d="M60 95 C58 75 56 65 60 55" stroke="#FF6B35" stroke-width="5" stroke-linecap="round"/>
-  <!-- Leaves -->
-  <path d="M60 55 C50 40 35 38 25 42" stroke="#2EC4B6" stroke-width="4" stroke-linecap="round" fill="none"/>
-  <path d="M60 55 C55 38 50 30 40 25" stroke="#2EC4B6" stroke-width="4" stroke-linecap="round" fill="none"/>
-  <path d="M60 55 C65 38 70 30 80 25" stroke="#2EC4B6" stroke-width="4" stroke-linecap="round" fill="none"/>
-  <path d="M60 55 C70 40 85 38 95 42" stroke="#2EC4B6" stroke-width="4" stroke-linecap="round" fill="none"/>
-  <path d="M60 55 C60 38 62 28 65 20" stroke="#2EC4B6" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#2EC4B6"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="url(#bg)"/>
+  <!-- V -->
+  <path d="M24 32 L44 88 L64 32" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- L -->
+  <path d="M72 32 L72 88 L100 88" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
 </svg>

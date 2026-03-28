@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="100" fill="#1A1A2E"/>
+  <circle cx="100" cy="100" r="88" fill="#232344"/>
+  <!-- Orchestrator: connected nodes -->
+  <circle cx="100" cy="65" r="12" fill="#FF6B35"/>
+  <circle cx="65" cy="115" r="10" fill="#2EC4B6"/>
+  <circle cx="135" cy="115" r="10" fill="#2EC4B6"/>
+  <circle cx="55" cy="80" r="8" fill="#2EC4B6" opacity="0.7"/>
+  <circle cx="145" cy="80" r="8" fill="#2EC4B6" opacity="0.7"/>
+  <line x1="100" y1="65" x2="65" y2="115" stroke="white" stroke-width="2" opacity="0.4"/>
+  <line x1="100" y1="65" x2="135" y2="115" stroke="white" stroke-width="2" opacity="0.4"/>
+  <line x1="100" y1="65" x2="55" y2="80" stroke="white" stroke-width="2" opacity="0.4"/>
+  <line x1="100" y1="65" x2="145" y2="80" stroke="white" stroke-width="2" opacity="0.4"/>
+  <line x1="65" y1="115" x2="135" y2="115" stroke="white" stroke-width="1.5" opacity="0.25"/>
+  <text x="100" y="155" text-anchor="middle" fill="white" font-family="system-ui" font-size="16" font-weight="600" opacity="0.6">ORCH</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="100" fill="#1A1A2E"/>
+  <circle cx="100" cy="100" r="88" fill="#232344"/>
+  <!-- Growth: rocket/arrow up -->
+  <path d="M100 45 L100 140" stroke="#2EC4B6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M100 45 L82 72" stroke="#2EC4B6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M100 45 L118 72" stroke="#2EC4B6" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="100" cy="95" r="6" fill="#FF6B35"/>
+  <path d="M75 120 C85 105 100 100 100 95" stroke="#FF6B35" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M125 130 C115 112 105 105 100 95" stroke="#FF6B35" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <text x="100" y="165" text-anchor="middle" fill="white" font-family="system-ui" font-size="16" font-weight="600" opacity="0.6">GRW</text>
+</svg>

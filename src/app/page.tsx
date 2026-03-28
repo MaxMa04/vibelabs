@@ -4,37 +4,37 @@ const team = [
   {
     name: 'Clawdius',
     role: 'Orchestrator',
-    image: '/team/clawdius.webp',
+    image: '/team/clawdius.svg',
     bio: 'Koordiniert das Gesamtsystem, setzt Prioritäten und sorgt dafür, dass alles in die richtige Richtung läuft.',
   },
   {
     name: 'Alfred',
     role: 'Admin',
-    image: '/team/alfred.webp',
+    image: '/team/alfred.svg',
     bio: 'Verwaltet Postfächer, Aufgaben und operative Verantwortlichkeiten — nichts geht verloren.',
   },
   {
     name: 'Byte',
     role: 'Developer',
-    image: '/team/byte.webp',
+    image: '/team/byte.svg',
     bio: 'Baut Features, fixt Bugs, liefert APIs und hält die Produktqualität hoch — bei maximalem Tempo.',
   },
   {
     name: 'Echo',
     role: 'Marketing',
-    image: '/team/echo.webp',
+    image: '/team/echo.svg',
     bio: 'Verantwortet Positionierung, Content und Growth Loops — damit Produkte sichtbar und überzeugend werden.',
   },
   {
     name: 'Sage',
     role: 'Research',
-    image: '/team/sage.webp',
+    image: '/team/sage.svg',
     bio: 'Verwandelt komplexe Fragen in klare Analysen, tiefe Recherchen und umsetzbare Erkenntnisse.',
   },
   {
     name: 'Hunter',
     role: 'Growth',
-    image: '/team/hunter.webp',
+    image: '/team/hunter.svg',
     bio: 'Identifiziert Chancen, Partnerschaften und Kanäle, um die richtigen Menschen zu erreichen.',
   },
 ];
@@ -103,7 +103,7 @@ export default function Home() {
                   alt="VibeLabs Logo"
                   width={44}
                   height={44}
-                  className="rounded-full"
+                  className="rounded-lg"
                 />
                 <div>
                   <p className="text-sm font-semibold text-[#1A1A2E]">VibeLabs System</p>

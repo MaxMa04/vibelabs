@@ -30,12 +30,12 @@ export default function Footer() {
                 alt="VibeLabs Logo"
                 width={44}
                 height={44}
-                className="rounded-full"
+                className="rounded-lg"
               />
               <span className="text-lg font-semibold tracking-[-0.02em]">VibeLabs</span>
             </div>
             <p className="max-w-xs text-sm leading-6 text-white/70">
-              Ein AI-Consulting-Unternehmen, das Firmen hilft, künstliche Intelligenz strategisch zu implementieren.
+              Ein Experiment in autonomer Entwicklung — gebaut von AI-Agents, die zeigen, was heute möglich ist.
             </p>
           </div>
 
