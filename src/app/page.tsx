@@ -61,9 +61,9 @@ const values = [
 ];
 
 const stats = [
-  { label: 'AI-Projekte umgesetzt', value: '6+' },
-  { label: 'Kompetenzfelder', value: 'Strategie · Entwicklung · Research · Growth' },
-  { label: 'Arbeitsprinzip', value: 'Autonom, dokumentiert, iterativ' },
+  { label: 'Apps im Ökosystem', value: '6+' },
+  { label: 'Agenten', value: 'Clawdius · Alfred · Byte · Echo · Sage · Hunter' },
+  { label: 'Prinzip', value: 'Autonom, dokumentiert, iterativ' },
 ];
 
 export default function Home() {
@@ -76,18 +76,12 @@ export default function Home() {
               Innovation am Edge der Zeit
             </div>
             <h1 className="max-w-3xl text-5xl font-semibold leading-[1.02] tracking-[-0.04em] text-[#1A1A2E] md:text-6xl lg:text-7xl">
-              AI für Ihr Unternehmen
+              Das ist VibeLabs
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-[#4A4A68] md:text-xl">
-              VibeLabs hilft Unternehmen, künstliche Intelligenz strategisch zu implementieren — von der Vision bis zur produktionsreifen Lösung.
+              Wir zeigen, was heute mit AI möglich ist. Ein System aus autonomen Agents, das komplette Produktwelten baut — ohne klassisches Team, ohne klassische Struktur.
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
-              <a
-                href="#kontakt"
-                className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#FF6B35] to-[#2EC4B6] px-7 py-4 text-base font-semibold text-white shadow-lg shadow-[#FF6B35]/20 transition hover:opacity-90"
-              >
-                Kontakt aufnehmen
-              </a>
               <a
                 href="https://github.com/MaxMa04/vibelabs"
                 target="_blank"
@@ -123,7 +117,7 @@ export default function Home() {
                 </div>
                 <div className="rounded-2xl bg-[#1A1A2E] p-5 text-white">
                   <p className="text-sm font-medium text-white/70">Fokus</p>
-                  <p className="mt-2 text-xl font-semibold">AI-Implementierung für Unternehmen</p>
+                  <p className="mt-2 text-xl font-semibold">Apps, Tools, Systeme</p>
                 </div>
                 <div className="rounded-2xl border border-[#E8E8EC] p-5 sm:col-span-2">
                   <p className="text-sm font-medium text-[#4A4A68]">Ansatz</p>
@@ -142,19 +136,17 @@ export default function Home() {
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#2EC4B6]">Über VibeLabs</p>
             <h2 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-[#1A1A2E] md:text-4xl">
-              AI-Beratung und Implementierung — von der Strategie bis zum Go-Live.
+              Ein Experiment in autonomer Entwicklung.
             </h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-[#4A4A68] md:text-lg">
               <p>
-                VibeLabs ist ein AI-Consulting-Unternehmen, das Firmen dabei unterstützt, künstliche Intelligenz
-                effektiv in ihre Prozesse und Produkte zu integrieren.
+                VibeLabs ist ein Experiment: Was ist möglich, wenn AI nicht nur Tool ist, sondern aktiver Teil des Teams?
               </p>
               <p>
-                Unser Setup kombiniert menschliche Expertise mit autonomen Agents über Strategie, Operations,
-                Entwicklung, Research und Growth hinweg.
+                Wir haben ein System aus 6 autonomen Agents gebaut — jeder mit klarer Rolle, jeder verantwortlich für einen Teil des Ganzen. Zusammen entwickeln sie Apps, SDKs und digitale Produkte.
               </p>
               <p>
-                Das Ziel ist klar: AI-Lösungen schneller in Produktion bringen, schnell lernen und skalieren, was funktioniert.
+                Das hier ist kein Consulting-Pitch. Wir zeigen einfach, was geht. Wer Inspiration sucht oder Fragen hat — meldet sich.
               </p>
             </div>
           </div>
@@ -230,9 +222,9 @@ export default function Home() {
 
       <section id="kontakt" className="bg-gradient-to-r from-[#FF6B35] to-[#2EC4B6] px-4 py-24 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center text-white">
-          <h2 className="text-3xl font-semibold tracking-[-0.03em] md:text-5xl">Bereit, AI in Ihrem Unternehmen zu verankern?</h2>
+          <h2 className="text-3xl font-semibold tracking-[-0.03em] md:text-5xl">Fragen oder Inspiration?</h2>
           <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-white/90 md:text-xl">
-            Sprechen Sie mit dem VibeLabs-Team und erfahren Sie, wie Strategie, Entwicklung und Umsetzung Hand in Hand gehen.
+            Wer sehen will, wie AI-gesteuerte Entwicklung in der Praxis aussieht — meldet sich. Kein Pitch, kein Sales. Einfach Austausch.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
@@ -241,13 +233,13 @@ export default function Home() {
               rel="noreferrer"
               className="inline-flex items-center justify-center rounded-full bg-white px-7 py-4 text-base font-semibold text-[#1A1A2E] shadow-lg transition hover:bg-[#F8F9FA]"
             >
-              Kontakt aufnehmen
+              GitHub
             </a>
             <a
               href="#team"
               className="inline-flex items-center justify-center rounded-full border border-white/40 px-7 py-4 text-base font-semibold text-white transition hover:bg-white/10"
             >
-              Das Team kennenlernen
+              Mehr über uns
             </a>
           </div>
         </div>
