@@ -10,8 +10,22 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'VibeLabs',
-  description: 'VibeLabs builds digital products with autonomous agents, strong design, and high-quality execution.',
+  metadataBase: new URL('https://vibelabs.dev'),
+  title: 'VibeLabs — Building Digital Experiences That Matter',
+  description: 'VibeLabs creates innovative apps and tools that empower users. We build products that solve real problems with a focus on quality and autonomy.',
+  openGraph: {
+    title: 'VibeLabs — Building Digital Experiences That Matter',
+    description: 'VibeLabs creates innovative apps and tools that empower users. We build products that solve real problems with a focus on quality and autonomy.',
+    type: 'website',
+    siteName: 'VibeLabs',
+    images: ['/og-image.png'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'VibeLabs — Building Digital Experiences That Matter',
+    description: 'VibeLabs creates innovative apps and tools that empower users. We build products that solve real problems with a focus on quality and autonomy.',
+    images: ['/og-image.png'],
+  },
 };
 
 export default function RootLayout({

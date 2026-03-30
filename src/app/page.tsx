@@ -1,39 +1,39 @@
 const team = [
   {
     name: 'Clawdius',
-    role: 'Orchestrator',
+    role: 'Orchestrator & Chief of Staff',
     icon: '🧭',
-    bio: 'Keeps the whole system aligned, prioritised, and moving in the right direction.',
+    bio: 'Koordiniert das Agent-Team, reviewt Output, hält Max accountable. Direkt, denglisch, langfristig denkend.',
   },
   {
     name: 'Alfred',
-    role: 'Admin',
+    role: 'Admin & Operations',
     icon: '📋',
-    bio: 'Handles inboxes, tasks, and operational accountability so nothing falls through the cracks.',
+    bio: 'Managt Email, Calendar, Task Planning (Backlog→Planned), und Agent Accountability via Discord-Pings.',
   },
   {
     name: 'Byte',
-    role: 'Developer',
+    role: 'Development',
     icon: '💻',
-    bio: 'Builds features, fixes bugs, ships APIs, and keeps product quality high while moving fast.',
+    bio: 'Baut Features, fixt Bugs, refactort Codebases. Alles was mit Programmieren zu tun hat geht an Byte.',
   },
   {
     name: 'Echo',
-    role: 'Marketing',
+    role: 'Marketing & Design',
     icon: '📣',
-    bio: 'Owns positioning, content, and growth loops to make products visible and compelling.',
+    bio: 'Zuständig für Visual Identity, Landing Pages, Content-Strategie, und alles was nach außen sichtbar ist.',
   },
   {
     name: 'Sage',
-    role: 'Research',
+    role: 'Deep Research',
     icon: '🔬',
-    bio: 'Turns messy questions into clear research, deep analysis, and actionable insight.',
+    bio: 'Führt mehrstufige Research durch, analysiert Märkte, vergleicht Lösungen, und liefert ultra-ausführliche Reports.',
   },
   {
     name: 'Hunter',
-    role: 'Growth',
+    role: 'Growth & Experimentation',
     icon: '🎯',
-    bio: 'Looks for opportunities, partnerships, and channels that help VibeLabs reach the right people.',
+    bio: 'Testet Channels, optimiert Funnels, und findet neue Wege für User Acquisition.',
   },
 ];
 
@@ -42,19 +42,19 @@ const values = [
     title: 'Innovation',
     icon: '⚡',
     description:
-      'We push for better products, sharper systems, and new ways of building digital experiences.',
+      'We push boundaries and embrace new technologies. Every product we build challenges the status quo.',
   },
   {
     title: 'Autonomy',
     icon: '🎯',
     description:
-      'Self-driven execution is core to how we work — fast ownership, clear responsibility, real output.',
+      'Self-driven execution. We build products and systems that run independently, empowering users to take control.',
   },
   {
     title: 'Quality',
     icon: '💎',
     description:
-      'We ship quickly, but not carelessly. Strong craft, attention to detail, and clean execution matter.',
+      'Attention to detail in everything we ship. No shortcuts, no filler — just solid, well-crafted products.',
   },
 ];
 
@@ -74,10 +74,10 @@ export default function Home() {
               Digital products, built with taste and velocity
             </div>
             <h1 className="max-w-3xl text-5xl font-semibold leading-[1.02] tracking-[-0.04em] text-[#1A1A2E] md:text-6xl lg:text-7xl">
-              Building Digital Experiences
+              Building Digital Experiences That Matter
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-[#4A4A68] md:text-xl">
-              VibeLabs creates innovative apps and tools that empower users.
+              VibeLabs creates innovative apps and tools that empower users. We build products that solve real problems — from productivity to wellness, all with a focus on quality and autonomy.
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
               <a
@@ -136,19 +136,14 @@ export default function Home() {
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#2EC4B6]">About VibeLabs</p>
             <h2 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-[#1A1A2E] md:text-4xl">
-              A company built around strong systems and even stronger execution.
+              Digital products that matter.
             </h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-[#4A4A68] md:text-lg">
               <p>
-                VibeLabs is an indie product company focused on building modern apps and tools with a small,
-                highly-leveraged team.
+                VibeLabs is an indie app company building digital products that matter. We&apos;re not a typical agency — we&apos;re builders, creators, and problem-solvers.
               </p>
               <p>
-                The setup blends human direction with autonomous agents across strategy, operations,
-                development, research, and growth.
-              </p>
-              <p>
-                The goal is simple: ship high-quality digital products faster, learn quickly, and compound what works.
+                Our mission is to ship high-quality apps that improve people&apos;s daily lives.
               </p>
             </div>
           </div>
@@ -221,7 +216,7 @@ export default function Home() {
         <div className="mx-auto max-w-4xl text-center text-white">
           <h2 className="text-3xl font-semibold tracking-[-0.03em] md:text-5xl">Ready to build something amazing?</h2>
           <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-white/90 md:text-xl">
-            Get in touch with the VibeLabs team and see how design, code, and execution can move together.
+            Get in touch with the VibeLabs team.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
