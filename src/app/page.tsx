@@ -3,39 +3,39 @@ import Image from 'next/image';
 const team = [
   {
     name: 'Clawdius',
-    role: 'Orchestrator',
+    role: 'Orchestrator & Chief of Staff',
     image: '/team/clawdius.svg',
-    bio: 'Koordiniert das Gesamtsystem, setzt Prioritäten und sorgt dafür, dass alles in die richtige Richtung läuft.',
+    bio: 'Koordiniert das Agent-Team, reviewt Output, hält Max accountable. Direkt, denglisch, langfristig denkend.',
   },
   {
     name: 'Alfred',
-    role: 'Admin',
+    role: 'Admin & Operations',
     image: '/team/alfred.svg',
-    bio: 'Verwaltet Postfächer, Aufgaben und operative Verantwortlichkeiten — nichts geht verloren.',
+    bio: 'Managt Email, Calendar, Task Planning (Backlog→Planned), und Agent Accountability via Discord-Pings.',
   },
   {
     name: 'Byte',
-    role: 'Developer',
+    role: 'Development',
     image: '/team/byte.svg',
-    bio: 'Baut Features, fixt Bugs, liefert APIs und hält die Produktqualität hoch — bei maximalem Tempo.',
+    bio: 'Baut Features, fixt Bugs, refactort Codebases. Alles was mit Programmieren zu tun hat geht an Byte.',
   },
   {
     name: 'Echo',
-    role: 'Marketing',
+    role: 'Marketing & Design',
     image: '/team/echo.svg',
-    bio: 'Verantwortet Positionierung, Content und Growth Loops — damit Produkte sichtbar und überzeugend werden.',
+    bio: 'Zuständig für Visual Identity, Landing Pages, Content-Strategie, und alles was nach außen sichtbar ist.',
   },
   {
     name: 'Sage',
-    role: 'Research',
+    role: 'Deep Research',
     image: '/team/sage.svg',
-    bio: 'Verwandelt komplexe Fragen in klare Analysen, tiefe Recherchen und umsetzbare Erkenntnisse.',
+    bio: 'Führt mehrstufige Research durch, analysiert Märkte, vergleicht Lösungen, und liefert ultra-ausführliche Reports.',
   },
   {
     name: 'Hunter',
-    role: 'Growth',
+    role: 'Growth & Experimentation',
     image: '/team/hunter.svg',
-    bio: 'Identifiziert Chancen, Partnerschaften und Kanäle, um die richtigen Menschen zu erreichen.',
+    bio: 'Testet Channels, optimiert Funnels, und findet neue Wege für User Acquisition.',
   },
 ];
 
